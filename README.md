@@ -24,7 +24,7 @@ MQ_QMGR_NAME=<QMGR NAME>
 
 volume = path of persistence storage
 
-docker run --name MQSERVER -e LICENSE=accept -e MQ_QMGR_NAME=WMQ9QMGR -v /var/mqm:/mnt/mqm -P mqv9image:0.3
+docker run -d --name MQSERVER -e LICENSE=accept -e MQ_QMGR_NAME=WMQ9QMGR -v /var/mqm:/mnt/mqm -P mqv9image:0.3
 
 The container ports are exposed on random ports on the host machine.  
 
