@@ -56,5 +56,7 @@ docker exec MQSERVER tail -f /var/mqm/qmgrs/WMQ9QMGR/logs/AMQERR01.log
 
 ### Step-6: Accessing MQ Console(Web GUI)
 
+Use http secure protocol i.e https://host:9443
+
 admin/password(6,0)
 
